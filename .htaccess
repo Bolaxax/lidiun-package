@@ -1,0 +1,10 @@
+order allow,deny
+allow from all
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.app.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteCond %{REQUEST_URI} !/app/public/
+
+RewriteRule (.*) /app/public/$1 [L]
