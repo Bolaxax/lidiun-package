@@ -1,0 +1,67 @@
+html   {width: 100%; height: 100%;}
+body   {width: 100%; height: 100%; background-color: #FFF; overflow-y: scroll; overflow-x: auto;}
+header {width: 100%; height: 8%;}
+section{width: 100%; min-height: 80%;}
+footer {width: 100%; height: 12%;}
+
+footer div {height: 100%;}
+footer div div {height: 100%; padding-top: 2%;}
+
+li a{vertical-align: middle; display: table-cell;}
+ul .table-align{display: table;}
+
+.no-margin{margin: 0;}
+.no-padding{padding: 0;}
+
+.bg-white{background: #FFF;}
+.bg-gray-l{background: #EEE;}
+.bg-gray{background: #999;}
+.bg-green{background: #ccebd6;}
+.bg-yellow{background: #FDF9BA;}
+.bg-site{background: #009688!important;}
+
+.cl-white{color: #FFF;}
+.cl-green{color: #54BC75;}
+.cl-blue{color: #2a6496;}
+.cl-orange{color: #8a6d3b;}
+.cl-red{color: #FF5454;}
+
+.bold{font-weight: bold;}
+.link{text-decoration: none!important;}
+.unactive{opacity: .3;}
+.shadown{box-shadow: 0px 3px 1px rgba(42, 42, 42, 0.27);}
+
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+}
+
+/* Clears */
+[class|="clear-"] { width:100%; clear:both;}
+[class*="clear-"] { margin: 0; padding: 0;border: none!important;width: 100%;display: inline-block; display: -webkit-box;}
+[class|="clear"]::before,
+[class|="clear"]::after { display:block; content:"."; clear:both; visibility:hidden; height:0; overflow:hidden;}
+
+.clear-0    { height:0px;  }
+.clear-05   { height:5px;  }
+.clear-10   { height:10px; }
+.clear-20   { height:20px; }
+.clear-30   { height:30px; }
+.clear-40   { height:40px; }
+.clear-50   { height:50px; }
+.clear-60   { height:60px; }
+.clear-70   { height:70px; }
+.clear-80   { height:80px; }
+.clear-90   { height:90px; }
+.clear-100  { height:100px; }
+
+/* Dividers */
+.divider-0 {height: 1px;display: block;width: 100%;float: left;margin: 0 0 0 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-05{height: 1px;display: block;width: 100%;float: left;margin: 5px 0 5px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-10{height: 1px;display: block;width: 100%;float: left;margin: 10px 0 10px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-15{height: 1px;display: block;width: 100%;float: left;margin: 15px 0 15px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-20{height: 1px;display: block;width: 100%;float: left;margin: 20px 0 20px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-30{height: 1px;display: block;width: 100%;float: left;margin: 30px 0 30px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+.divider-40{height: 1px;display: block;width: 100%;float: left;margin: 40px 0 40px 0;border: 0;border-top: 1px solid #eee;clear: both;overflow: hidden;}
+
